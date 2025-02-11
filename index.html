@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft Simulator</title>
-    <link rel="stylesheet" href="style.css">
+    <title>3D Minecraft Simulator</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
+    </style>
 </head>
 <body>
-    <div id="game-container">
-        <div id="inventory">
-            <h3>Inventory</h3>
-            <p>Wood: <span id="wood-count">0</span></p>
-            <p>Stone: <span id="stone-count">0</span></p>
-            <p>Dirt: <span id="dirt-count">0</span></p>
-        </div>
-        <canvas id="gameCanvas"></canvas>
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="game.js"></script>
 </body>
 </html>
